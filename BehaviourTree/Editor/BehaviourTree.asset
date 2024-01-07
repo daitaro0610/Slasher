@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8796319684241043307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: "Debug1\u56DE\u76EE"
+  description: "One\u3068\u8868\u793A\u3057\u3066\u304B\u3089\u4E00\u79D2\u5F85\u3063\u3066\n\u3068\u306A\u308A\u306E\u30CE\u30FC\u30C9\u306E\u51E6\u7406\u306B\u5207\u308A\u66FF\u3048\u308B\u3000"
+  guid: 1da092b4ae3f6fd45aa1cd96f9233963
+  position: {x: -487.26257, y: -73.00002, z: 0}
+  size: {x: 504, y: 296}
+  currentSize: {x: 504, y: 296}
+--- !u!114 &-8449194537538744414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080e92e1bd223c14a9d1ab4087fabaa1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6c60b07f4c2102c438f9ec50b9bb93b4
+  position: {x: -170.00006, y: -15.699989}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  m_Children:
+  - {fileID: -2531793115009523227}
+  - {fileID: 3458116909021443843}
+--- !u!114 &-8130158952450010957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: New NodeComment
+  description: New Commene
+  guid: d0f218b97473ac240b16b4a39ff37435
+  position: {x: 71.76294, y: -508.9999, z: 0}
+  size: {x: 241, y: 419}
+  currentSize: {x: 241, y: 419}
+--- !u!114 &-8099845735644131419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: ca707008b840db04e9ba0d562692f074
+  position: {x: 470.48264, y: -243.11183, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &-7712975850965126017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: 84549466d5663cd4ea43a01a431f5ead
+  position: {x: 497.30807, y: -101.77469, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &-7576178838536201129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66afe5cb08f914947937373ee2b87db2, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 
+  position: {x: -26.083265, y: -423.7029}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  m_Child: {fileID: -1232796687618898022}
+--- !u!114 &-7380317749048651107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: a851c99e47d07eb479fb3f5b299da666
+  position: {x: -440.48718, y: -70.397484, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &-4671661536794375913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: db14d97c0798a6446b036c09a5830567
+  position: {x: 612, y: 260, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &-2952495214593367115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: 180e78e056658534d9c764c35016d2a1
+  position: {x: 523, y: 61, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &-2843250796860143792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: 0216ad55133a84642a0562f9fd83a618
+  position: {x: 550.6594, y: -107.010765, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &-2531793115009523227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4235d200b560d3740bdf4a5058ecf54a, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 76ed89202189abe4f88e00deb01e430b
+  position: {x: -296.22318, y: 153}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  child: {fileID: 0}
+  m_Message: One
+--- !u!114 &-2245144109175825200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: "Debug2\u56DE\u76EE"
+  description: "\u30C7\u30D0\u30C3\u30B0\u7528"
+  guid: 7c880116c4334a14ab69bbc58936dfbd
+  position: {x: 79, y: -71, z: 0}
+  size: {x: 402, y: 292}
+  currentSize: {x: 402, y: 292}
+--- !u!114 &-1448140710322621068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080e92e1bd223c14a9d1ab4087fabaa1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7d8df4f0a0cc00446bf3ea47024dde49
+  position: {x: -20.000013, y: -177.20003}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  m_Children:
+  - {fileID: -8449194537538744414}
+  - {fileID: 6136567672170166994}
+--- !u!114 &-1390879750023973641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38152f82794ae84ca058390f9d29053, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c0ead6e9a7b6cde4bb329fe6f3f755d8
+  position: {x: 296, y: 145}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  child: {fileID: 0}
+  m_Duration: 3
+--- !u!114 &-1232796687618898022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e00deb6cc6b7b44ae3feb4b9febf22, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2343c66cbf698d746b80740d2f70f933
+  position: {x: -20.000013, y: -310.20007}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  m_Child: {fileID: -1448140710322621068}
+--- !u!114 &-541785810076773406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: 0f9ac74f13aabe14c8b7a1df4c9fbc9e
+  position: {x: 676, y: 149, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1799249c9a365ac4bbf708c0f3b43ee9, type: 3}
+  m_Name: BehaviourTree
+  m_EditorClassIdentifier: 
+  m_RootNode: {fileID: -7576178838536201129}
+  m_TreeState: 0
+  nodes:
+  - {fileID: -7576178838536201129}
+  - {fileID: -1448140710322621068}
+  - {fileID: -1232796687618898022}
+  - {fileID: -8449194537538744414}
+  - {fileID: 6136567672170166994}
+  - {fileID: 3458116909021443843}
+  - {fileID: -2531793115009523227}
+  - {fileID: 3769236924641041542}
+  - {fileID: -1390879750023973641}
+  comments:
+  - {fileID: -8796319684241043307}
+  - {fileID: -2245144109175825200}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+--- !u!114 &1262773778260485329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: New NodeComment
+  description: New Commene
+  guid: 119b3309b1ad4e747a374f3d9868561a
+  position: {x: -34.655556, y: -466.9999, z: 0}
+  size: {x: 551, y: 412}
+  currentSize: {x: 551, y: 412}
+--- !u!114 &1873154222986801134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: 947ced338018f8a4f869382f658580b3
+  position: {x: 588, y: 177, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}
+--- !u!114 &3458116909021443843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38152f82794ae84ca058390f9d29053, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 87687e4f777dac847bffbf1e9b293abc
+  position: {x: -115.00005, y: 146}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  child: {fileID: 0}
+  m_Duration: 1
+--- !u!114 &3769236924641041542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4235d200b560d3740bdf4a5058ecf54a, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 784a5da2c21f53d4b8c98b9b6282dd62
+  position: {x: 97, y: 149}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  child: {fileID: 0}
+  m_Message: Two
+--- !u!114 &6136567672170166994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080e92e1bd223c14a9d1ab4087fabaa1, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 03e27ea9ce0091d439736ad937ffc6b0
+  position: {x: 153.99998, y: -22.48247}
+  blackboard:
+    m_MoveToPosition: {x: 0, y: 0, z: 0}
+    m_MoveToObject: {fileID: 0}
+  description: 
+  m_Children:
+  - {fileID: 3769236924641041542}
+  - {fileID: -1390879750023973641}
+--- !u!114 &6272686531365657749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18448998a40dbe74d9059e097d0ec553, type: 3}
+  m_Name: NodeComment
+  m_EditorClassIdentifier: 
+  commentTitle: 
+  description: New Commene
+  guid: 3a83cd012505f8049aa92a5d3191099c
+  position: {x: 528, y: 167, z: 0}
+  size: {x: 200, y: 200}
+  currentSize: {x: 0, y: 0}

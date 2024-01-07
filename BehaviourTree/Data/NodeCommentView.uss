@@ -1,0 +1,14 @@
+#comment-border {
+    width: 200px;
+    height: 200px;
+    max-width: 3000px;
+    max-height: 3000px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+#commentTitle {
+}
+
+#nodeComment {
+}
